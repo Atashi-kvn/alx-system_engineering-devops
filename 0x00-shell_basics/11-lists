@@ -1,6 +1,2 @@
 #!/bin/bash
-
-filetype=$(file /tmp/iamafile)
-echo $filetype
-
-
+ls -al. ../boot
