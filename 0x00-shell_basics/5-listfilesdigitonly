@@ -1,2 +1,4 @@
 #!/bin/bash
-ls -lnah
+
+ls -l -n -a
+
