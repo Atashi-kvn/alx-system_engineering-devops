@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for file in *.html; do
+  target="../$file"
+  if [ ! -e "$target" ] || [ "$file" -nt "$target" ]; then
+    cp "$file" "../$file"
+  fi
+done
+

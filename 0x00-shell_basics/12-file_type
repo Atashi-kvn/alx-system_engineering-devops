@@ -1,0 +1,6 @@
+#!/bin/bash
+file_path="/tmp/iamafile"
+
+file_type=$(file "$file_path")
+
+echo "The type of $file_path is $file_type"
